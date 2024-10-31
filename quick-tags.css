@@ -1,0 +1,24 @@
+
+.tags > a:before {content:'\f159';font:400 16px/1 dashicons;color:#bbb;vertical-align:text-top}
+.tags > a {margin:0 13px 0 -12px;line-height:1.8em;float:left}
+
+.tags span {margin-right:15px;display:block;float:left;font-size:13px;line-height:1.8em;white-space:nowrap;cursor:default}
+.tags span a.tgbutton:before {background:0 0;color:#bbb;display:block!important;font:400 16px/1 dashicons;speak:none;height:20px;margin:2px 0;text-align:center;width:20px;-webkit-font-smoothing:antialiased!important}
+.tags span a.del:before {content:'\f153';}
+.tags span a.pls:before {content:'\f502';}
+.tags span a.del:hover:before {color:#c00}
+.tags span a.pls:hover:before {color:#0c0}
+.tags span a.tgbutton{margin:1px 0 0 -15px;cursor:pointer;width:20px;height:20px;display:block;float:left;text-indent:0;overflow:hidden;position:absolute;text-decoration:none}
+.tags span a.pls {margin-left:-12px;}
+
+/*.tags span a.tgbutton:before {background:0 0;color:#bbb;display:block!important;font:400 16px/1 dashicons;speak:none;height:20px;margin:2px 0;text-align:center;width:20px;-webkit-font-smoothing:antialiased!important}
+.tags span a.del:before {content:'\f153';}
+.tags span a.pls:before {content:'\f502';}
+.tags span a.del:hover:before {color:#c00}
+.tags span a.pls:hover:before {color:#0c0}
+.tags span a.tgbutton {margin:1px 0 0 -15px;cursor:pointer;width:20px;height:20px;display:block;float:left;text-indent:0;overflow:hidden;position:absolute;text-decoration:none}
+.tags span a.pls {margin-left:-12px;}
+*/
+/*.bb-alert {position:fixed;bottom:2px;right:2px;margin-bottom:0;font-size:1.2em;padding:1em 1.3em;z-index:2000;}*/
+
+div.quickTags{display:none;position:fixed;margin-left:10px!important;-webkit-box-shadow:0 0 5px 3px rgba(0,0,0,.2);box-shadow:0 0 5px 3px rgba(0,0,0,.2);}
